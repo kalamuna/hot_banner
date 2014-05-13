@@ -23,7 +23,7 @@ dependencies[] = text
 -features[defaultconfig][] = user_default_permissions:edit fieldable hot_bootstrap_jumbotron
 features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:2
-features[field_base][] = field_basic_image_image
+
 features[field_base][] = field_basic_url
 features[field_base][] = field_hot_styles
 features[field_instance][] = fieldable_panels_pane-hot_banner-field_basic_image_image
