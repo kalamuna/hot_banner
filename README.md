@@ -1,4 +1,4 @@
-# HotBootstrapJumbotron! #
+# HotBanner! #
 
 `hot_banner`
 

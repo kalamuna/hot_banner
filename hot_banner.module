@@ -40,7 +40,6 @@ function hot_banner_preprocess_fieldable_panels_pane(&$variables){
       $variables['attributes_array']['class'][] =
          'banner-' . $variables['field_hot_styles'][0]['value'];
     }
-    dpm($variables);
     $variables['elements']['title'] = array(
       '#theme' => 'html_tag',
       '#tag' => 'h1',
