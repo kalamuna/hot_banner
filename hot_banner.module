@@ -42,8 +42,9 @@ function hot_banner_preprocess_fieldable_panels_pane(&$variables){
     }
     $variables['elements']['title'] = array(
       '#theme' => 'html_tag',
-      '#tag' => 'h1',
-      '#value' => $title
+      '#tag' => 'span',
+      '#value' => $title,
+      '#attributes' => array('class' => 'h1')
     );
 
   }

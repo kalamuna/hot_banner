@@ -22,11 +22,11 @@
       ?>
     </figcaption>
     <div class="col-sm-3">
-      <?php if($variables['url']): ?>
+      <?php if(isset($variables['url'])): ?>
       <a href="<?php print $variables['url'];?>" title="<?php print $variables['elements']['#fieldable_panels_pane']->title;?>">
       <?php endif; ?>
         <?php print render($variables['elements']['field_basic_image_image']);?>
-      <?php if($variables['url']): ?>
+      <?php if(isset($variables['url'])): ?>
       </a>
       <?php endif; ?>
     </div>
